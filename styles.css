@@ -1,0 +1,247 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: #ff3b59;
+    background-image: linear-gradient(red, rgb(255, 255, 0));
+    color: aliceblue;
+    padding-bottom: 66px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.25rem;
+    line-height: 1.5;
+    /* font-weight: 900;*/
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.button {
+    margin-top: 0.938rem;
+}
+
+
+/* .iphone {
+    -ms-transform: rotate(25deg);
+    
+    transform: rotate(25deg);
+    height: 40rem;
+    width: 20rem;
+    margin-top: 3rem;
+    position: absolute;
+    right: 20%;
+} */
+
+
+/* SECTION -- FEATURES */
+
+#features {
+    text-align: center;
+    justify-content: center;
+    padding-top: 59px;
+    padding-left: 137px;
+    padding-right: 137px;
+    padding-bottom: 46px;
+    margin-bottom: 3.125rem;
+    background-color: white;
+    position: relative;
+}
+
+H3 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.features-icon {
+    color: #ef8172;
+    font-size: 3.125rem;
+    padding-bottom: 1.25rem;
+}
+
+
+/* .features-icon :hover {
+    color: #d8fd05;
+} */
+
+.feature-box {
+    color: darkblue;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.navbar-brand {
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.position1 {
+    margin-top: 5.5rem;
+}
+
+
+/* TESTIMONIAL SECTION */
+
+#testimonials {
+    text-align: center;
+    font-family: sans-serif;
+    /* background-color: #ff3b59;
+    background-image: linear-gradient(red, rgb(255, 255, 0)); */
+    color: aliceblue;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+h2 {
+    font-family: 'Montserrat-bold', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.Image-dog {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.same-bg {
+    background-color: #ff3b59;
+    background-image: linear-gradient(red, rgb(255, 255, 0));
+}
+
+#press {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* PRICING SECTION */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.btn-primary {
+    width: 75%;
+}
+
+.btn-outline-primary {
+    width: 75%;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.card-body {
+    color: #8f8f8f;
+    font-family: 'Montserrat-light';
+}
+
+.money {
+    color: black;
+}
+
+span {
+    color: #200461;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+
+/* CALL TO ACTION */
+
+#cta {
+    padding-top: 180px;
+    padding-bottom: 180px;
+    text-align: center;
+    background-color: #ff3b59;
+    background-image: linear-gradient(rgb(238, 39, 39), rgb(255, 255, 0));
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.bottom-button {
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 40px;
+}
+
+#footer {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 80px;
+}
+
+.span1 {
+    font-size: 3.5rem;
+    color: rgb(236, 236, 233);
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .iphone {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+    #pricing {
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+    .change-column {
+        flex-direction: column-reverse;
+    }
+    .position1 {
+        margin-top: 0px;
+    }
+}
+
+.dwnld {
+    font-size: 2.5rem;
+}
+
+.type-3 {
+    background-color: rgb(234, 233, 235);
+}
+
+.dwnld-images {
+    margin: 2% 2%;
+}
